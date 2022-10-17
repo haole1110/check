@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>page_screenshot</title>
+        <meta charset="utf-8">
+        <style>
+            a {
+                color: blue;
+            }
+            table, th, td{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="logo.png" alt="40px">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+            id est laborum.</p>
+        <h1>Intro</h1>
+        <video width="500" controls>
+            <source src="http://techslides.com/demos/sample-videos/small.webm">
+            <source src="http://techslides.com/demos/sample-videos/small.ogv">
+            <source src="http://techslides.com/demos/sample-videos/small.mp4">
+            <source src="http://techslides.com/demos/sample-videos/small.3gp">
+        </video>
+        <h1>Our Locations</h1>
+        <ul>
+            <li>USA
+                <ul>
+                    <li> 
+                        <a href="https://www.meetup.com/girldevelopit/">New York</a>
+                    </li>
+                    <li>
+                        <a href="http://www.meetup.com/girldevelopitcbus">Columbus</a>
+                    </li>
+                    <li>
+                        <a href="http://www.meetup.com/Girl-Develop-It-Austin">Austin</a>
+                    </li>
+                    <li>
+                        <a href="http://www.meetup.com/Girl-Develop-It-Philadelphia/">Philly</a>
+                    </li>
+                </ul>
+            </li>
+            <li>World
+                <ul>
+                    <li>
+                        <a href="http://www.meetup.com/Girl-Develop-It-Ottawa">Ottawa</a>
+                    </li>
+                    <li>
+                        <a href="https://www.meetup.com/girldevelopit-sydney/">Sydney</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h1>Upcoming Classes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Topic</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>New York</td>
+                    <td>JavaScript & jQuery</td>
+                </tr>
+                <tr>
+                    <td>San Francisco</td>
+                    <td>HTML & CSS</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Sign Up!</h1>
+        <form>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </p>
+            <p>
+                <label for="location">Location:</label>
+                <select id="location">
+                    <option value="San Fransico">San Francisco</option>
+                    <option value="New York">New York</option>
+                </select>
+            </p>
+            <fieldset style="border: 2px solid black">
+                <legend>Gender:</legend>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+            </fieldset>
+            <p>
+                <label for="experience">Experience:</label>
+                <br>
+                <textarea name="experrience" id="experience" cols="30" rows="10"></textarea>
+                <br>
+                <input type="button" name="signup" id="signup" value="Sign up">
+            </p>
+        </form>
+        <p>
+            <a href="https://twitter.com/girldevelopit">Twitter</a> |
+            <a href="https://www.facebook.com/girldevelopit">Facebook</a> |
+            <a href="https://www.flickr.com/photos/40453677@N00/sets/72157626841092971/">Flickr</a>
+        </p>
+    </body>
+</html>
